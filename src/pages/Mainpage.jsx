@@ -1,11 +1,15 @@
-
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 function Mainpage() {
 
   return (
-    <div className="bg-black text-white">
-      <h1>Main Page</h1>
-      <p>This is the main page</p>
+    <div className="min-h-screen flex flex-col bg-gray-700">
+      <Navbar />
+      {/* Add content here */}
+      <main class="mb-auto h-10 bg-grey-500">Content</main>
+
+      <Footer className="mt-auto"/>
     </div>
   )
 }
