@@ -25,8 +25,12 @@ const MovieCard = ({ movie }) => {
         </div>
   
         <div className="mt-auto px-6 pb-4">
-          <button className="bg-yellow-500 hover:bg-yello-700 text-white font-bold py-2 px-4 rounded w-full">
+          <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded w-full">
             Add To Favorites
+          </button>
+          
+          <button className="bg-violet-400 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded w-full">
+            Watch
           </button>
         </div>
       </div>
