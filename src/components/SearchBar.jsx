@@ -16,6 +16,11 @@ const SearchBar = ({currentSearch, handleSearchClick}) =>
         setSearchTerm(event.target.value);
     };
 
+    const handleReset = () =>
+    {
+        handleSearchClick("");
+    }
+
 
     return (
         <div className="bg-gray-900 text-white">
@@ -35,6 +40,10 @@ const SearchBar = ({currentSearch, handleSearchClick}) =>
                     </button>
                 </div>
             </form>
+            <button className="bg-violet-500 hover:bg-violet-700 duration-300 px-5 py-2.5 font-[Poppins]
+                    rounded-md text-white md:w-auto w-full" type="click" onClick={handleReset}>
+                    Reset
+            </button>
         </div>
     );
 

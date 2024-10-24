@@ -30,7 +30,7 @@ const Navbar = () => {
 
                 <ul className="hidden md:flex space-x-4 items-center">
                     <li><a href="#" className='text-white text-2xl px-3 py-2 rounded hover:text-red-400 duration-300'>Home</a></li>
-                    <li><a href="#" className='text-white text-2xl px-3 py-2 rounded hover:text-red-400 duration-300'>Favorites</a></li>
+                    <li><a href="/favorites" className='text-white text-2xl px-3 py-2 rounded hover:text-red-400 duration-300'>Favorites</a></li>
                 </ul>
             </div>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
             {isMenuOpen && (
                 <div className="md:hidden">
                     <a href="#" className="block py-2 text-white hover:text-red-400 duration-300">Home</a>
-                    <a href="#" className="block py-2 text-white hover:text-red-400 duration-300">Favorites</a>
+                    <a href="/favorites" className="block py-2 text-white hover:text-red-400 duration-300">Favorites</a>
                 </div>
             )}
         </nav>
