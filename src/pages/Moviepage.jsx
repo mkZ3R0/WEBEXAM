@@ -1,17 +1,16 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import SearchBar from '../components/SearchBar'
 
-function Mainpage() {
+function MoviePage() {
 
 
   return (
     <div className="min-h-screen flex flex-col bg-gray-700">
       <Navbar />
-        hello
+        Work In Progress
       <Footer className="mt-auto"/>
     </div>
   )
 }
 
-export default Mainpage
+export default MoviePage

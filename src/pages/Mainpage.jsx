@@ -16,7 +16,6 @@ function Mainpage() {
   const [loading, setLoading] = useState(false);
   const [fav, setFavorites]=useState(FAV)
 
-
   const handleSearchClick = (newSearch) =>
   {
     setSearchTerm(newSearch);
